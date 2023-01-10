@@ -158,3 +158,6 @@ Select Location, Population, date, MAX(total_cases) as HighInfectedCount, MAX((t
 From Covid19Project..CovidDeaths
 Group by Location, Population, date
 order by PercentPopInfected
+
+# Tableau Dashboard
+![Covid 19 Dashboard](https://user-images.githubusercontent.com/120590361/211623733-d1cc1665-93a7-4ba3-bd52-bc7187626261.png)
